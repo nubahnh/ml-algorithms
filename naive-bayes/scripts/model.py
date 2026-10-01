@@ -2,8 +2,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv(
-    r"E:\TKCL\Projects\ML\ml-algorithms\naive-bayes\datasets\Dry_Bean_Dataset-Dry_Beans_Dataset.csv")
+df = pd.read_excel(
+    r"E:\TKCL\Projects\ML\ml-algorithms\naive-bayes\datasets\Dry_Bean_Dataset.xlsx", sheet_name= 'Dry_Beans_Dataset')
 print(df.head())
 print(df.shape)
 
